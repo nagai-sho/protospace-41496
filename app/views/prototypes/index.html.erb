@@ -11,6 +11,10 @@
         <%= render partial: "prototype", collection: @prototypes %>
       </div>
     <% else %>
+      <div class="card__wrapper">
+        <%# 投稿機能実装後、部分テンプレートでプロトタイプ投稿一覧を表示する %>
+        <%= render partial: "prototype", collection: @prototypes %>
+      </div>
     <% end %>
   </div>
 </main>
